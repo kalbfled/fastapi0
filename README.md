@@ -15,8 +15,6 @@ Setup the application based on the FastAPI docs. Prepare one `GET` route for `/s
 Use the [documentation](https://docs.locust.io/en/stable/quickstart.html) to prepare a `locustfile.py` that calls the `/status` endpoint.
 
 # Testing
-Locust test your app with:
-
 ## Record Keeping
 Each individual computer will have different results, but there should be consistency in the ratios between all engineers. Keep track of all settings and results.
 

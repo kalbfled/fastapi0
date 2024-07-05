@@ -34,7 +34,7 @@ Record results, specifically: # of Requests, Fails, 95 percentile, Average, Max,
 ## Multiple Workers
 NOTE: If you select "New" from the interface it will put the two runs next to each other (great for later tests).
 
-Run `gunicorn app:app -b 127.0.0.1:8000 --pythonpath app -k uvicorn.workers.UvicornWorker -w 4`
+Run `gunicorn app:<python file, no extension> -b 127.0.0.1:8000 --pythonpath app -k uvicorn.workers.UvicornWorker -w 4`
 
 Run `locust --processes 4` in another terminal and open the web interface at http://0.0.0.0:8089.
 
